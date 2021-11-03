@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+                                                            CSS Z-INDEX STACKING CONTEXT
+
+### Intro
+The stacking context is a three-dimensional conceptualization of HTML elements along an imaginary z-axis relative to the user, who is assumed to be facing the viewport or the webpage. HTML elements occupy this space in priority order based on element attributes.
+
+### How does it work
+The DOM pages are actually full of stacking contexts - even the <html> element creates one; any position: fixed or sticky as well, and then a bunch of other ones like grid or flex children that do have an z-index other than auto.
+
+Important thing: Each stacking context is self-contained: after the element's contents are stacked, the whole element is considered in the stacking order of the parent stacking context.
+
+## Motto: Gotta stack them right!
+
+-----
+
+-----
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
