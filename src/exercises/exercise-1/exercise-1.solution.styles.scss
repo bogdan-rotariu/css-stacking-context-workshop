@@ -1,0 +1,10 @@
+
+div:first-child {
+    opacity: 0.99;
+
+    //all of them do the same thing - among their specific use - they create a new stacking context
+    //mix-blend-mode: color;
+    //isolation: isolate;
+    //contain: layout;
+}
+

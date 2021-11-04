@@ -1,0 +1,26 @@
+.example-3 {
+    display: flex;
+
+    div {
+        width: 30vh;
+        height: 30vh;
+        opacity: 0.8;
+    }
+
+    .box-1 {
+        background: white;
+        z-index: 2;
+    }
+    .box-2 {
+        background: rosybrown;
+        z-index: 1;
+    }
+
+    .box-3 {
+        background: paleturquoise;
+        z-index: -1;
+        margin-left: -300px;
+        width: 40vw;
+        text-align: right;
+    }
+}

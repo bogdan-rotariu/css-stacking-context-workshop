@@ -1,5 +1,9 @@
+import React from 'react'
 import './App.styles.scss'
-import { Exercise1 } from './exercises'
+// eslint-disable-next-line no-unused-vars
+import { Example1, Example2, Example3 } from './examples'
+// eslint-disable-next-line no-unused-vars
+import { Exercise1, Exercise2 } from './exercises'
 
 function App() {
     return (
@@ -11,7 +15,11 @@ function App() {
                 </h1>
             </header>
             <main className='main'>
-                <Exercise1 />
+                {/*<Example1 />*/}
+                {/*<Example2 />*/}
+                {/*<Example3 />*/}
+                {/*<Exercise1 />*/}
+                {/*<Exercise2 />*/}
             </main>
         </div>
     )
