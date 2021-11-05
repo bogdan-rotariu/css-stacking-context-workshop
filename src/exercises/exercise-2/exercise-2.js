@@ -2,25 +2,17 @@ import React from 'react'
 import './exercise-2.styles.scss'
 
 export const Exercise2 = () => (
+    // Can you make the toaster go over the header, without using any z-index properties or altering the markup?
     <section className='exercise-2 container'>
         <div className='grid'>
             <header className='grid-header'>
                 <div className='logo'>Logo</div>
-                <nav className='navigation'>Navigation
-                    <div className='dropdown'>Dropdown Navigation</div>
-                </nav>
+                <nav className='navigation'>Navigation</nav>
             </header>
             <main className='grid-main'>
                 Main content
-                <div className='tooltip'>tooltip</div>
+                <div className='toaster'>toaster notification</div>
             </main>
-            {/*<main className='grid-main'>*/}
-            {/*    <div className='product-list'>Product List</div>*/}
-            {/*</main>*/}
-            {/*<aside className='grid-sidebar'>*/}
-            {/*    <div className='summary'>Summary</div>*/}
-            {/*    <footer className='footer'>Footer</footer>*/}
-            {/*</aside>*/}
         </div>
     </section>
 )

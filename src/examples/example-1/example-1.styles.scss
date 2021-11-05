@@ -9,7 +9,7 @@
 
     div:nth-child(1) {
         position: relative;
-        //Trick Question: what happens if I comment out next line?
+        //10points Question: what happens if I comment out next line?
         z-index: 1;
         background: white;
     }
@@ -19,7 +19,6 @@
     }
 
     > div:nth-child(3) {
-        z-index: 0;
         background: rosybrown;
     }
 }

@@ -11,15 +11,17 @@
         background: white;
         z-index: 2;
     }
+
     .box-2 {
         background: rosybrown;
         z-index: 1;
+        margin-left: -100px;
     }
 
     .box-3 {
         background: paleturquoise;
         z-index: -1;
-        margin-left: -300px;
+        margin-left: -220px;
         width: 40vw;
         text-align: right;
     }

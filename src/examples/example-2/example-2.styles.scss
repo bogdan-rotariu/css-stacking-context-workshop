@@ -14,7 +14,6 @@
             background: red;
             margin-right: -10vh;
             margin-top: 5vh;
-
             z-index: 99999;
         }
     }
@@ -22,13 +21,13 @@
     .right {
         background: palevioletred;
         margin-left: -12.5vw;
-        z-index: 2;
+        z-index: 1;
 
         .inner {
             background: green;
             margin-left: -5vw;
             margin-top: 10vh;
-            z-index: 1;
+            z-index: 2;
         }
     }
 }

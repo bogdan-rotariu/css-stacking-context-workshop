@@ -8,8 +8,8 @@ export const Example2 = () => (
             <div className='inner'>z-index: 99999;</div>
         </div>
         <div className='right'>
-            z-index: 2;
-            <div className='inner'>z-index: 1;</div>
+            z-index: 1;
+            <div className='inner'>z-index: 2;</div>
         </div>
     </section>
 )
