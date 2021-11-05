@@ -4,7 +4,7 @@
 The stacking context is a three-dimensional conceptualization of HTML elements along an imaginary z-axis relative to the user, who is assumed to be facing the viewport or the webpage. HTML elements occupy this space in priority order based on element attributes. (from MDN)
 
 ### How does it work
-The DOM pages are actually full of stacking contexts - even the <html> element creates one; any position: fixed or sticky as well, and then a bunch of other ones like grid or flex children that do have an z-index other than auto. As a general rule - if a CSS property required rendering in an offscreen context, then it will create a new stacking context.
+The DOM pages are actually full of stacking contexts - even the `<html>` element creates one; any position: fixed or sticky as well, and then a bunch of other ones like grid or flex children that do have an z-index other than auto. As a general rule - if a CSS property required rendering in an offscreen context, then it will create a new stacking context.
 
 Important thing: Each stacking context is self-contained: after the element's contents are stacked, the whole element is considered in the stacking order of the parent stacking context.
 
