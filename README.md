@@ -8,7 +8,15 @@ The DOM pages are actually full of stacking contexts - even the `<html>` element
 
 Important thing: Each stacking context is self-contained: after the element's contents are stacked, the whole element is considered in the stacking order of the parent stacking context.
 
-## Motto: Gotta stack them right!
+Motto: Gotta stack them right!
+-----
+
+#####Further resources and inspiration:
+
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
+- https://www.joshwcomeau.com/css/stacking-contexts
+- https://ishadeed.com/article/understanding-z-index
+
 -----
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
